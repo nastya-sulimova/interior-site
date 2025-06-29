@@ -1,0 +1,320 @@
+@media (max-width: 767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .header{
+        border: none;
+        padding-top: 50px;
+    }
+    .header__logo{
+        width: 99px;
+    }
+   
+    .header__input{
+        display: none;
+    }
+    
+    .header__nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+    .mobile-nav__link{
+        text-decoration: none;
+    }
+    .top-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top__heading{
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+    .top__text{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .top__catalog{
+        font-size: 14px;
+    }
+
+
+
+
+    .for__heading{
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    
+    .for__content{
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .for__item{
+        height: 375px;
+        width: calc(100vw - 32px);
+    }
+    .for__item_big{
+        height: 244px;
+    }
+    .for__link{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+
+
+    .product-box__heading{
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .product-box__list{
+        row-gap: 32px;
+    }
+    .product{
+        width: calc(100vw - 32px);   
+        display: flex;
+        flex-direction: column;
+    }
+    .product__product,
+    .product-catalog__product{
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+    .product__text,
+    .product-catalog__text{
+        margin-bottom: 8px;
+    }
+    .price-box{
+        display: flex;
+        gap: 32px;
+    }
+    .product__price,
+    .product-catalog__price{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .product__old-price{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .product-box__link{
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+
+    .product-box__heading_margin{
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+
+
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, max-content);
+        margin-top: unset;
+        height: unset;
+    }
+    .menu{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-bottom: 70px;
+    }
+    .contacts{
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+    }
+    .footer-form{
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+        justify-self: center;
+    }
+    .subscribe{
+        margin-bottom: 33px;
+    }
+
+
+    // catalog
+    
+    .top-catalog__heading{
+        font-size: 48px;
+        line-height: 59px;
+        padding-top: 95px;
+        padding-bottom: 170px;
+        text-align: center;
+    }
+
+
+    .nav-select{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-select__nav{
+        font-size: 14px;
+        margin-top: 32px;
+        margin-bottom: 14px;
+    }
+
+    .nav-select__button{
+        font-size: 14px;
+        line-height: 17px;
+    }
+  
+    .nav-select__button_font{
+        font-size: 14px;
+        line-height: 17px;
+        position: relative;
+    }
+
+
+
+    .nav-select__select{
+        margin-bottom: 32px;
+        margin-top: unset;
+        flex-direction: column;
+    }
+    .form-select{
+        top: 98px;
+        right: -77px;
+        grid-template-columns: auto;
+    }
+    
+      .fieldset-color{
+        margin-bottom: 46px;
+      }
+      
+      .fieldset-room{
+        grid-column: 1;
+        grid-row: auto;
+      }
+      .form-button{
+        grid-column: 1;
+        margin-top: 36px;
+      }
+   
+
+
+    .product-box__list-catalog{     
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 33px;
+    }
+    .product-catalog{
+        display: flex;
+        flex-direction: column;
+        grid-column: span 4;
+    }
+    .product-box__link{
+        margin-top: 32px;
+    }
+
+
+
+    // Корзина
+
+    .top-basket__heading{
+        font-size: 48px;
+        line-height: 59px;
+        margin-top: 95px;
+        padding-bottom: 170px;
+        text-align: center;
+    }
+
+    .basket-ordering{
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 48px;
+        margin-top: 92px;
+    }
+    .basket{
+        grid-column: span 4;
+    }
+    .basket__name{
+        display: none;
+    }
+    .basket-product{
+        justify-content: space-between;
+        padding-top: 18px;
+        margin-bottom: 23px;
+    }
+    .basket-product__second{
+        padding-top: 18px;
+        margin-bottom: 32px;
+    }
+    .basket-product__img{
+        display: none;
+    }
+    .product-description{
+        grid-column: 1 / 5;
+        display: grid;
+        gap: 19px;
+    }
+    .description{
+        display: grid;
+        grid-column: 1 / 4;
+        gap: unset;
+    }    
+    .description .product-description__title{
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 8px;
+    }
+    .description .product-description__text_mobile{
+        font-size: 12px;
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+    .product-description__text_mobile-gap{
+        padding-bottom: 15px;
+    }
+    .description .product-description__price{
+        font-size: 12px;
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+    .description .product-description__price_font{ 
+        font-size: 14px;
+        line-height: 17px;}
+    .basket-form{
+        grid-column: 4 / 5;
+    }
+    .basket__buttons{
+        gap: 14px;
+    }
+    .basket__buttons .basket__buttons_clear,
+    .basket__buttons .basket__buttons_continue{
+        font-size: 10px;
+        line-height: 15px;
+        padding: 11px 26px;
+    }
+    .ordering__buttons .ordering__button{
+        margin-left: 27px;
+        margin-right: 27px;
+        font-size: 15px;
+    }
+    .ordering__buttons{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+}
